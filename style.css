@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+	/*border: 1px solid #ccc;*/
+}
+
+nav{
+	display: flex;
+	background-color: blue;
+}
+.fa-bars{
+	font-size: 40px;
+	color: white;
+}
+.links a{
+    float: right;
+    margin: 10px 29px 12px 0px;
+    text-decoration: none;
+    color: white;
+}
+.col-1{
+	width: 33%;
+}
+.col-2{
+   width: 66%;
+}
+.sAsisde{
+	width: 30%;
+	background-color: white;
+	border: 1px solid #ccc;
+    z-index: 1;
+	transition: width 2s;
+	margin-top: -42px;
+}
+.aside{
+	width: 0;	
+	overflow: hidden;
+}
+input{
+	padding: 15px;
+    border-radius: 3px;
+    margin: 12px 0px 50px 36px;
+}
+.bar{
+	transition: margin-left 1s;
+	margin-left: 31%;
+}
